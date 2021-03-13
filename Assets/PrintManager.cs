@@ -52,8 +52,7 @@ public class PrintManager : MonoBehaviour
         writer.Close();
     }
 
-    static string checkFile(string path) {
-
+     static string checkFile(string path) {
         // See if file Currently exists at path
         if (File.Exists(path)){
 
@@ -79,8 +78,10 @@ public class PrintManager : MonoBehaviour
                 path = _file[0] + "_01." + _file[1];
             }
 
-            return path;
-        } else {
+            //recursive call just in case you said do _01 but have up to _18 already.
+            return checkFile(path);
+        } 
+        else { //File Does not Currently Exist
             return path;
         }
     }
