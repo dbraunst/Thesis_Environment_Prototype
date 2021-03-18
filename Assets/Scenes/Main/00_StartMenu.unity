@@ -1893,6 +1893,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1866786180828396403, guid: d6fa179c8ed504c0ab7f1142199bddb7,
+        type: 3}
+      propertyPath: path
+      value: Assets/Resources/presistence2.txt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6fa179c8ed504c0ab7f1142199bddb7, type: 3}
 --- !u!1 &2026332913

@@ -1,0 +1,4 @@
+This is a new line
+This is a new line
+This is a new line
+You pressed enter, and now here's the file!

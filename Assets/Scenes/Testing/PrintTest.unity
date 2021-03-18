@@ -413,12 +413,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 898203836115175283, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_Text
-      value: "Print test: \n- Press \"P\" to print data\n- Press \"Enter\" to save
-        to Text File + close writer\n"
-      objectReference: {fileID: 0}
     - target: {fileID: 1866786180828396401, guid: d6fa179c8ed504c0ab7f1142199bddb7,
         type: 3}
       propertyPath: m_Name
@@ -479,68 +473,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 359.85095
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951498106477482028, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6fa179c8ed504c0ab7f1142199bddb7, type: 3}
---- !u!1 &1866786182724003077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1866786180828396401, guid: d6fa179c8ed504c0ab7f1142199bddb7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1866786182724003076}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1866786182724003078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866786182724003077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b43570dd371747668faef40b07ea2fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

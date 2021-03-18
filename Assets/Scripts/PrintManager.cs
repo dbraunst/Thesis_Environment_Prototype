@@ -34,6 +34,8 @@ public class PrintManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
         {
+            Debug.Log("Pressed P, added line \'This is a new line\' to output file");
+            writer.WriteLine("This is a new line");
         }
     }
 
